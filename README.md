@@ -22,11 +22,11 @@ Se q(x) é uma propriedade demonstrável dos objetos x de tipo T, então q(y) de
 Em outras palavras, ao utilizar ações como herança em seu sistema, precisamos nos atentar para que atributos e/ou métodos que não fazem sentido, não sejam herdados pela subclasse, optando em algumas vezes por aplicar uma composição de classes em seu código no lugar da herança.
 ###### *Implementado no commit "applying LSP"*
 
-## 4º Interface Segregation Principle (ISP)
+## 4º Princípio: Interface Segregation Principle (ISP)
 Uma classe não deveria ser forçada a depender de métodos que não utilizará. by Uncle Bob
 ###### *Implementado no commit "applying ISP"*
 
-## 5º Dependency Inversion Principle (DIP)
+## 5º Princípio: Dependency Inversion Principle (DIP)
 Abstrações não devem depender de implementações. Implementações devem depender de abstrações. by Uncle Bob
 No projeto, como utilizamos as abstrações, interfaces e polimorfismo durante a implementação do principio OCP (Open Closed Principle) acabamos diretamente implementando o DIP (Dependency Inversion Principle).
 ###### *Implementado no commit "applying OCP"*
