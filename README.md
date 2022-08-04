@@ -18,7 +18,7 @@ Entidades de software (classes, módulos, funções, etc) devem estar abertas pa
 ###### *Implementado no commit "applying OCP"*
 
 ## 3º Princípio: Liskov Substitution Principle (LSP)
-Se q(x) é uma propriedade demonstrável dos objetos x de tipo T, então q(y) deve ser verdadeiro para objetos y de tipo S, onde S é subtipo de T. by Barbara Liskov
+Se q(x) é uma propriedade demonstrável dos objetos x de tipo T, então q(y) deve ser verdadeiro para objetos y de tipo S, onde S é subtipo de T. by Barbara Liskov <br />
 Em outras palavras, ao utilizar ações como herança em seu sistema, precisamos nos atentar para que atributos e/ou métodos que não fazem sentido, não sejam herdados pela subclasse, optando em algumas vezes por aplicar uma composição de classes em seu código no lugar da herança.
 ###### *Implementado no commit "applying LSP"*
 
